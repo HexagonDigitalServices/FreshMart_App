@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="freshmart-logo-title">
+  <title id="freshmart-logo-title">FreshMart Grocery Logo</title>
+  <defs>
+    <linearGradient id="mark-bg" x1="14" y1="10" x2="82" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FEF08A"/>
+      <stop offset="0.45" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="bag-fill" x1="29" y1="34" x2="71" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF7D6"/>
+    </linearGradient>
+    <linearGradient id="leaf-fill" x1="44" y1="15" x2="74" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EFAC"/>
+      <stop offset="1" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="96" height="96" rx="28" fill="#0B0A08"/>
+  <circle cx="48" cy="48" r="38" fill="url(#mark-bg)"/>
+  <circle cx="48" cy="48" r="31" fill="#FFF9DB" opacity="0.95"/>
+
+  <path
+    d="M30 42.5h38.4l-3.2 31.2a7.1 7.1 0 0 1-7 6.3H40.4a7.1 7.1 0 0 1-7-6.2L30 42.5Z"
+    fill="url(#bag-fill)"
+    stroke="#17130A"
+    stroke-linejoin="round"
+    stroke-width="4"
+  />
+  <path
+    d="M39 43v-5.2C39 30.7 44 26 49.2 26c5.4 0 10.2 4.7 10.2 11.8V43"
+    fill="none"
+    stroke="#17130A"
+    stroke-linecap="round"
+    stroke-width="5"
+  />
+  <path
+    d="M46 55.5c8.2-12.7 20.6-13.9 27.6-11.5.3 7.8-6.3 18.8-19.4 19.6-3.9.2-7.1-.7-9.6-2.5"
+    fill="url(#leaf-fill)"
+    stroke="#17130A"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <path d="M46.8 60.4c6.8-7.2 15.5-10.8 24-13.3" fill="none" stroke="#ECFCCB" stroke-linecap="round" stroke-width="3"/>
+
+  <path
+    d="M37.5 56h7.8l2 9.7L55 56h7.2l-3.4 15.8h-5.2l1.3-6.4-5.4 6.4h-4.7l-1.4-6.4-1.3 6.4h-5.2L37.5 56Z"
+    fill="#17130A"
+  />
+  <circle cx="40.5" cy="80.5" r="3.2" fill="#17130A"/>
+  <circle cx="61.5" cy="80.5" r="3.2" fill="#17130A"/>
+
+  <path d="M25 20.5l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.3-4.4 2.3.8-5-3.6-3.5 5-.7 2.2-4.6Z" fill="#FFFFFF"/>
+  <path d="M73 21l1.4 3 3.3.5-2.4 2.3.6 3.3-2.9-1.5-3 1.5.6-3.3-2.4-2.3 3.3-.5L73 21Z" fill="#FFFFFF" opacity="0.9"/>
+</svg>

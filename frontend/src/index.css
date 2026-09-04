@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --font-store-body: "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-store-display: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  --font-store-label: "Arial Rounded MT Bold", "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-width: 0;
+  overflow-x: clip;
+}
+
+body {
+  font-family: var(--font-store-body);
+  font-feature-settings: "kern";
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  min-width: 0;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+input,
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input:focus,
+button:focus,
+a:focus {
+  outline: none;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgb(250 204 21);
+  outline-offset: 3px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.auth-field {
+  caret-color: rgb(202 138 4);
+}
+
+.auth-field:focus {
+  box-shadow: none;
+}
+
+.auth-field:-webkit-autofill,
+.auth-field:-webkit-autofill:hover,
+.auth-field:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  -webkit-text-fill-color: #000;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  -webkit-text-fill-color: inherit;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.font-store-display {
+  font-family: var(--font-store-display);
+}
+
+.font-store-label {
+  font-family: var(--font-store-label);
+}
+
+.text-wrap-safe {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
