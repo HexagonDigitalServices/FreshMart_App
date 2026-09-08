@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+.dashboard-font {
+  font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+.soft-enter {
+  animation: softEnter 0.16s ease-out both;
+}
+
+.dashboard-font,
+.dashboard-font * {
+  scrollbar-color: #facc15 #111111;
+  scrollbar-width: thin;
+}
+
+.dashboard-font ::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.dashboard-font ::-webkit-scrollbar-track {
+  background: #111111;
+  border-radius: 999px;
+}
+
+.dashboard-font ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #fde047, #eab308);
+  border: 2px solid #111111;
+  border-radius: 999px;
+}
+
+.dashboard-font ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #fef08a, #facc15);
+}
+
+@keyframes softEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
