@@ -84,3 +84,12 @@
             );
           })}
         </div>
+
+        {hasMoreProducts && (
+          <div className={s.viewMoreWrapper}>
+            <Link to="/hookah-products" className={s.viewMoreLink}>
+              View More Products
+              <ArrowRight size={18} className={s.viewMoreArrow} />
+            </Link>
+          </div>
+        )}
